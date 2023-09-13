@@ -1,0 +1,44 @@
+form{
+    border: #000 solid 2px;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+input{
+    outline: none;
+    width: 170px;
+}
+label{
+    text-align: left;
+    font-family: 'PT Sans';
+}
+.info_form{
+    display: flex;
+    justify-content: center;
+}
+button[type="submit"]{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px;
+    cursor: pointer;
+    font-family: 'PT Sans';
+}
+textarea{
+    width: 200px;
+    height: 150px;
+    resize: none;/*Evita que el usuario pueda redimensonar textarea*/
+}
+.campo-requerido{
+    border: red 1px solid;
+}
+.campo-verificado{
+    border: rgb(3, 182, 15) 1px solid;
+}
+.error{
+    color:red;
+}
